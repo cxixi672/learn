@@ -21,14 +21,21 @@
 - Redis 底层编码与 ZSet 跳表（backend-20261124-08）
 - TLS 握手与 1.3 改进（backend-20261124-09）
 - 零拷贝 sendfile/mmap（backend-20261124-10）
+- Go：逃逸分析与栈/堆分配（backend-20261125-01）
+- Go：sync.Pool 实现与注意事项（backend-20261125-02）
+- Java：类加载过程与双亲委派（backend-20261125-03）
+- Java：G1 与 ZGC 垃圾回收（backend-20261125-04）
+- Java：ConcurrentHashMap(JDK8) 原理（backend-20261125-05）
+- MySQL：间隙锁/临键锁与死锁排查（backend-20261125-06）
+- Redis：分布式锁与 Redlock 争议（backend-20261125-07）
+- 网络：HTTP/1.1、HTTP/2、HTTP/3 对比（backend-20261125-08）
+- 操作系统：虚拟内存、页表与缺页中断（backend-20261125-09）
+- Redis：Cluster 哈希槽与 MOVED/ASK（backend-20261125-10）
 
 ## 未覆盖
-- Go：逃逸分析、sync.Pool 与 WaitGroup/Once
-- Java：类加载机制、G1/ZGC 等垃圾回收器
-- Java：ConcurrentHashMap、CAS 与原子类、ThreadLocal
-- MySQL：锁类型（行锁、间隙锁、临键锁）与死锁排查
-- MySQL：主从复制与分库分表
-- Redis：主从复制与哨兵、Cluster 分片
-- Redis：分布式锁实现细节（Redlock 争议）
-- 网络：HTTP/1.1 与 HTTP/2、拥塞控制、DNS
-- 操作系统：进程与线程切换开销、虚拟内存与页表、内存管理
+- Go：WaitGroup/Once/RWMutex、map 实现与并发安全
+- Java：CAS 与原子类（LongAdder）、ThreadLocal、JMM happens-before
+- MySQL：主从复制与分库分表、MVCC ReadView 细节、大表 DDL
+- Redis：主从复制与哨兵、过期与淘汰策略、大 Key/热 Key
+- 网络：TCP 拥塞控制与滑动窗口、DNS 解析、三次握手与 SYN 洪泛
+- 操作系统：进程调度算法、死锁、页面置换、IO 模型 (BIO/NIO/AIO)

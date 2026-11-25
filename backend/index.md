@@ -22,3 +22,13 @@
 2026-11-24 | 后端 | Redis 底层编码与 ZSet 跳表 | backend-20261124-08
 2026-11-24 | 后端 | TLS 握手与 1.3 改进 | backend-20261124-09
 2026-11-24 | 后端 | 零拷贝 sendfile/mmap | backend-20261124-10
+2026-11-25 | 后端 | Go 逃逸分析与栈/堆分配 | backend-20261125-01
+2026-11-25 | 后端 | Go sync.Pool 实现与注意事项 | backend-20261125-02
+2026-11-25 | 后端 | Java 类加载过程与双亲委派 | backend-20261125-03
+2026-11-25 | 后端 | Java G1 与 ZGC 垃圾回收 | backend-20261125-04
+2026-11-25 | 后端 | Java ConcurrentHashMap(JDK8) 原理 | backend-20261125-05
+2026-11-25 | 后端 | MySQL 间隙锁/临键锁与死锁排查 | backend-20261125-06
+2026-11-25 | 后端 | Redis 分布式锁与 Redlock 争议 | backend-20261125-07
+2026-11-25 | 后端 | HTTP/1.1、HTTP/2、HTTP/3 对比 | backend-20261125-08
+2026-11-25 | 后端 | 虚拟内存、页表与缺页中断 | backend-20261125-09
+2026-11-25 | 后端 | Redis Cluster 哈希槽与 MOVED/ASK | backend-20261125-10
