@@ -31,11 +31,21 @@
 - 网络：HTTP/1.1、HTTP/2、HTTP/3 对比（backend-20261125-08）
 - 操作系统：虚拟内存、页表与缺页中断（backend-20261125-09）
 - Redis：Cluster 哈希槽与 MOVED/ASK（backend-20261125-10）
+- TCP 三次握手、半连接/全连接队列与 SYN Flood（backend-20261126-01）
+- Go map 实现(含1.24 Swiss Table)与并发安全（backend-20261126-02）
+- Java ThreadLocal 原理与内存泄漏（backend-20261126-03）
+- Redis 过期删除与内存淘汰策略（backend-20261126-04）
+- Go WaitGroup/Once/RWMutex 使用陷阱（backend-20261126-05）
+- Java CAS、ABA 与 LongAdder（backend-20261126-06）
+- 操作系统 IO 模型与 BIO/NIO/AIO（backend-20261126-07）
+- TCP 滑动窗口与拥塞控制（backend-20261126-08）
+- MySQL MVCC ReadView 可见性判断（backend-20261126-09）
+- MySQL 主从复制与主从延迟（backend-20261126-10）
 
 ## 未覆盖
-- Go：WaitGroup/Once/RWMutex、map 实现与并发安全
-- Java：CAS 与原子类（LongAdder）、ThreadLocal、JMM happens-before
-- MySQL：主从复制与分库分表、MVCC ReadView 细节、大表 DDL
-- Redis：主从复制与哨兵、过期与淘汰策略、大 Key/热 Key
-- 网络：TCP 拥塞控制与滑动窗口、DNS 解析、三次握手与 SYN 洪泛
-- 操作系统：进程调度算法、死锁、页面置换、IO 模型 (BIO/NIO/AIO)
+- Go：slice 扩容与共享底层数组、interface 内部结构、defer/panic/recover
+- Java：JMM happens-before、JVM 内存区域与 OOM 排查、Spring 事务
+- MySQL：分库分表、大表 DDL、Buffer Pool
+- Redis：主从复制与哨兵、大 Key/热 Key、缓存与数据库一致性
+- 网络：DNS 解析、HTTP 缓存、长连接与连接池
+- 操作系统：进程/线程/协程与调度算法、死锁、页面置换
