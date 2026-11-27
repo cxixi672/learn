@@ -42,3 +42,13 @@
 2026-11-26 | 后端 | TCP 滑动窗口与拥塞控制 | backend-20261126-08
 2026-11-26 | 后端 | MySQL MVCC ReadView 可见性判断 | backend-20261126-09
 2026-11-26 | 后端 | MySQL 主从复制与主从延迟 | backend-20261126-10
+2026-11-27 | 后端 | Go slice 扩容与共享底层数组 | backend-20261127-01
+2026-11-27 | 后端 | Go defer/panic/recover 执行语义 | backend-20261127-02
+2026-11-27 | 后端 | HTTP 强缓存与协商缓存 | backend-20261127-03
+2026-11-27 | 后端 | 进程/线程/goroutine 与上下文切换 | backend-20261127-04
+2026-11-27 | 后端 | Go interface 内部结构与 nil 陷阱 | backend-20261127-05
+2026-11-27 | 后端 | Java JVM 内存区域与 OOM 排查 | backend-20261127-06
+2026-11-27 | 后端 | Spring 事务传播与失效场景 | backend-20261127-07
+2026-11-27 | 后端 | Redis 缓存与数据库一致性 | backend-20261127-08
+2026-11-27 | 后端 | MySQL Buffer Pool 改进 LRU 与脏页刷盘 | backend-20261127-09
+2026-11-27 | 后端 | MySQL Online DDL 与 MDL 锁 | backend-20261127-10

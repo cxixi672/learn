@@ -41,11 +41,21 @@
 - TCP 滑动窗口与拥塞控制（backend-20261126-08）
 - MySQL MVCC ReadView 可见性判断（backend-20261126-09）
 - MySQL 主从复制与主从延迟（backend-20261126-10）
+- Go slice 扩容与共享底层数组（backend-20261127-01）
+- Go defer/panic/recover 执行语义（backend-20261127-02）
+- HTTP 强缓存与协商缓存（backend-20261127-03）
+- 进程/线程/goroutine 与上下文切换（backend-20261127-04）
+- Go interface 内部结构与 nil 陷阱（backend-20261127-05）
+- Java JVM 内存区域与 OOM 排查（backend-20261127-06）
+- Spring 事务传播与失效场景（backend-20261127-07）
+- Redis 缓存与数据库一致性（backend-20261127-08）
+- MySQL Buffer Pool 改进 LRU 与脏页刷盘（backend-20261127-09）
+- MySQL Online DDL 与 MDL 锁（backend-20261127-10）
 
 ## 未覆盖
-- Go：slice 扩容与共享底层数组、interface 内部结构、defer/panic/recover
-- Java：JMM happens-before、JVM 内存区域与 OOM 排查、Spring 事务
-- MySQL：分库分表、大表 DDL、Buffer Pool
-- Redis：主从复制与哨兵、大 Key/热 Key、缓存与数据库一致性
-- 网络：DNS 解析、HTTP 缓存、长连接与连接池
-- 操作系统：进程/线程/协程与调度算法、死锁、页面置换
+- Go：泛型实现、pprof 性能分析、内存对齐
+- Java：JMM happens-before、Spring Bean 生命周期与循环依赖
+- MySQL：分库分表、索引下推与优化器索引选择
+- Redis：主从复制与哨兵、大 Key/热 Key
+- 网络：DNS 解析、长连接与连接池
+- 操作系统：经典调度算法、死锁、页面置换
