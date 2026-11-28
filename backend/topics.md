@@ -51,11 +51,21 @@
 - Redis 缓存与数据库一致性（backend-20261127-08）
 - MySQL Buffer Pool 改进 LRU 与脏页刷盘（backend-20261127-09）
 - MySQL Online DDL 与 MDL 锁（backend-20261127-10）
+- 操作系统 死锁条件与预防/避免/检测（backend-20261128-01）
+- DNS 解析流程、缓存与传输协议（backend-20261128-02）
+- Go 内存对齐与伪共享（backend-20261128-03）
+- MySQL 索引下推 ICP（backend-20261128-04）
+- Spring Bean 生命周期与三级缓存循环依赖（backend-20261128-05）
+- Redis 大 Key 与热 Key 治理（backend-20261128-06）
+- Java happens-before 与安全发布（backend-20261128-07）
+- 长连接与连接池(http.Transport/database/sql)（backend-20261128-08）
+- Redis 主从复制与哨兵故障转移（backend-20261128-09）
+- Go 泛型实现(GC Shape Stenciling)（backend-20261128-10）
 
 ## 未覆盖
-- Go：泛型实现、pprof 性能分析、内存对齐
-- Java：JMM happens-before、Spring Bean 生命周期与循环依赖
-- MySQL：分库分表、索引下推与优化器索引选择
-- Redis：主从复制与哨兵、大 Key/热 Key
-- 网络：DNS 解析、长连接与连接池
-- 操作系统：经典调度算法、死锁、页面置换
+- Go：pprof 性能分析、select 与定时器实现、内存分配器
+- Java：JVM 即时编译与逃逸优化、虚拟线程、Spring AOP 代理机制
+- MySQL：分库分表、优化器索引选择、自增 ID 与主键设计
+- Redis：事务与 Lua 脚本、Pipeline、单线程模型与多线程 IO
+- 网络：CDN 回源与调度、负载均衡（四层/七层）、WebSocket
+- 操作系统：经典调度算法、页面置换、进程间通信

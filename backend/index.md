@@ -52,3 +52,13 @@
 2026-11-27 | 后端 | Redis 缓存与数据库一致性 | backend-20261127-08
 2026-11-27 | 后端 | MySQL Buffer Pool 改进 LRU 与脏页刷盘 | backend-20261127-09
 2026-11-27 | 后端 | MySQL Online DDL 与 MDL 锁 | backend-20261127-10
+2026-11-28 | 后端 | 操作系统 死锁条件与预防/避免/检测 | backend-20261128-01
+2026-11-28 | 后端 | DNS 解析流程、缓存与传输协议 | backend-20261128-02
+2026-11-28 | 后端 | Go 内存对齐与伪共享 | backend-20261128-03
+2026-11-28 | 后端 | MySQL 索引下推 ICP | backend-20261128-04
+2026-11-28 | 后端 | Spring Bean 生命周期与三级缓存循环依赖 | backend-20261128-05
+2026-11-28 | 后端 | Redis 大 Key 与热 Key 治理 | backend-20261128-06
+2026-11-28 | 后端 | Java happens-before 与安全发布 | backend-20261128-07
+2026-11-28 | 后端 | 长连接与连接池(http.Transport/database/sql) | backend-20261128-08
+2026-11-28 | 后端 | Redis 主从复制与哨兵故障转移 | backend-20261128-09
+2026-11-28 | 后端 | Go 泛型实现(GC Shape Stenciling) | backend-20261128-10
